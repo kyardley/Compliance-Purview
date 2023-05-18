@@ -1,0 +1,2 @@
+Import-Module ExchangeOnlineManagement
+Connect-IPPSSession
