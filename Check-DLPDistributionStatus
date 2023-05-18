@@ -1,0 +1,2 @@
+# Check Distribution Status for all DLP Policies
+$R = Get-dlpCompliancePolicy; ForEach ($d in $R){Get-DlpcompliancePolicy -DistributionDetail $d.name | Format-List Name,DistributionStatus}
